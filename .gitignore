@@ -1,0 +1,24 @@
+# Live configuration and personal data never belong in this source export.
+.env
+.env.*
+!.env.example
+wp-config.php
+wp-admin/
+wp-includes/
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+node_modules/
+vendor/
+*.sql
+*.sql.gz
+*.db
+*.sqlite*
+*.zip
+*.log
+*.bak
+backups/
+logs/
+HANDOFF.md
+.DS_Store
+Thumbs.db

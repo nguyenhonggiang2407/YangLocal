@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">Minh họa mua sắm</title><desc id="desc">Minh họa trung tính cho địa điểm mua sắm khi chưa có ảnh địa điểm phù hợp.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf2ec"/><stop offset="1" stop-color="#dce8df"/></linearGradient></defs>
+  <rect width="960" height="720" fill="url(#g)"/>
+  <circle cx="770" cy="140" r="110" fill="#fff" opacity=".45"/><circle cx="160" cy="600" r="150" fill="#fff" opacity=".35"/>
+  <g fill="none" stroke="#315d46" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M250 330h460l-42-118H292z"/><path d="M285 330v214h390V330"/><path d="M385 544V416h190v128"/>
+    <path d="M235 330c0 45 58 58 82 17 25 41 82 28 82-17 0 45 58 58 82 17 25 41 82 28 82-17 0 45 58 58 82 17 25 41 82 28 82-17"/>
+  </g>
+</svg>

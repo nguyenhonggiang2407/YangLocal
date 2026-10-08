@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Ảnh dự phòng Nhà sách">
+<rect width="1200" height="800" fill="#E5E9E3"/>
+<path d="M350 255h190c50 0 90 32 90 82v285c-38-24-78-34-125-34H350V255ZM850 255H660c-50 0-90 32-90 82v285c38-24 78-34 125-34h155V255Z" fill="none" stroke="#315C45" stroke-width="22"/>
+<text x="600" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#52564F">Nhà sách</text>
+</svg>

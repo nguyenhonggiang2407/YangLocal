@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Ảnh dự phòng Café">
+<rect width="1200" height="800" fill="#E8E1D4"/>
+<circle cx="430" cy="360" r="105" fill="none" stroke="#315C45" stroke-width="24"/><path d="M535 335h55c60 0 60 95 0 95h-43" fill="none" stroke="#315C45" stroke-width="24" stroke-linecap="round"/><path d="M350 520h300" stroke="#315C45" stroke-width="24" stroke-linecap="round"/>
+<text x="600" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#52564F">Café</text>
+</svg>

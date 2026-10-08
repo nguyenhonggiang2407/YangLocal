@@ -1,0 +1,59 @@
+[
+  {
+    "post_type": "yl_place",
+    "slug": "demo-cafe-may",
+    "title": "Café Mây · dữ liệu hư cấu",
+    "content": "<p>Không gian café hư cấu dùng để thử bộ lọc giá và lưu địa điểm. Đây không phải một cơ sở kinh doanh có thật.</p>",
+    "excerpt": "Không gian café hư cấu dùng để thử bộ lọc giá và lưu địa điểm. Đây không phải một cơ sở kinh doanh có thật.",
+    "comment_status": "open",
+    "terms": [
+      {
+        "taxonomy": "place_category",
+        "slug": "cafe",
+        "name": "Café"
+      }
+    ],
+    "meta": {
+      "_yl_price_from": "35000",
+      "_yl_student_notes": "Dữ liệu hư cấu để phát triển và trình diễn; không dùng để tìm đường."
+    }
+  },
+  {
+    "post_type": "yl_place",
+    "slug": "demo-goc-hoc",
+    "title": "Góc học An · dữ liệu hư cấu",
+    "content": "<p>Điểm học tập hư cấu dùng để thử trang chi tiết và đánh giá trên môi trường phát triển. Không có địa chỉ hoặc tọa độ thật.</p>",
+    "excerpt": "Điểm học tập hư cấu dùng để thử trang chi tiết và đánh giá trên môi trường phát triển. Không có địa chỉ hoặc tọa độ thật.",
+    "comment_status": "open",
+    "terms": [
+      {
+        "taxonomy": "place_category",
+        "slug": "hoc-tap",
+        "name": "Học tập"
+      }
+    ],
+    "meta": {
+      "_yl_price_from": "0",
+      "_yl_student_notes": "Dữ liệu hư cấu để phát triển và trình diễn; không dùng để tìm đường."
+    }
+  },
+  {
+    "post_type": "yl_place",
+    "slug": "demo-bep-nho",
+    "title": "Bếp nhỏ · dữ liệu hư cấu",
+    "content": "<p>Quán ăn hư cấu phục vụ minh họa giao diện. Mức giá là dữ liệu thử, không phải thông tin tham khảo đi ăn.</p>",
+    "excerpt": "Quán ăn hư cấu phục vụ minh họa giao diện. Mức giá là dữ liệu thử, không phải thông tin tham khảo đi ăn.",
+    "comment_status": "open",
+    "terms": [
+      {
+        "taxonomy": "place_category",
+        "slug": "quan-an",
+        "name": "Ăn uống"
+      }
+    ],
+    "meta": {
+      "_yl_price_from": "45000",
+      "_yl_student_notes": "Dữ liệu hư cấu để phát triển và trình diễn; không dùng để tìm đường."
+    }
+  }
+]

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">Minh họa lịch sử và di sản</title><desc id="desc">Minh họa trung tính cho địa điểm lịch sử khi chưa có ảnh địa điểm phù hợp.</desc>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f1eee6"/><stop offset="1" stop-color="#dfe8df"/></linearGradient></defs>
+  <rect width="960" height="720" fill="url(#g)"/>
+  <circle cx="720" cy="150" r="95" fill="#fff" opacity=".42"/>
+  <g fill="none" stroke="#315d46" stroke-width="21" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M310 550h340"/><path d="M350 550V300h260v250"/><path d="M325 300h310l-48-60H373z"/><path d="M395 240v-60h170v60"/><path d="M430 180v-55h100v55"/><path d="M438 550V410h84v140"/>
+  </g>
+</svg>

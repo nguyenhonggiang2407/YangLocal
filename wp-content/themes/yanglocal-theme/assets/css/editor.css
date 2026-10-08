@@ -1,0 +1,14 @@
+.editor-styles-wrapper {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    color: #22231F;
+    background: #F7F5F0;
+}
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3 {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.18;
+}
+.editor-styles-wrapper a { color: #315C45; }

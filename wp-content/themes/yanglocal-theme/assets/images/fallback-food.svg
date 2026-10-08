@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Ảnh dự phòng Ăn uống">
+<rect width="1200" height="800" fill="#F1E5DA"/>
+<path d="M360 350h480c0 170-88 270-240 270S360 520 360 350Z" fill="none" stroke="#D97645" stroke-width="24"/><path d="M430 300c0-50 45-75 45-125M600 300c0-50 45-75 45-125M770 300c0-50 45-75 45-125" fill="none" stroke="#D97645" stroke-width="20" stroke-linecap="round"/>
+<text x="600" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#52564F">Ăn uống</text>
+</svg>

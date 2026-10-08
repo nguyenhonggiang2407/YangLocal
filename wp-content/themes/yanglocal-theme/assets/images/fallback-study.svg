@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Ảnh dự phòng Học tập">
+<rect width="1200" height="800" fill="#E5E9E3"/>
+<path d="M330 260h240c65 0 110 34 110 100v250c-42-28-88-40-140-40H330V260Z" fill="none" stroke="#315C45" stroke-width="22"/><path d="M680 260H440c-65 0-110 34-110 100v250c42-28 88-40 140-40h210V260Z" fill="none" stroke="#315C45" stroke-width="22"/>
+<text x="600" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#52564F">Học tập</text>
+</svg>

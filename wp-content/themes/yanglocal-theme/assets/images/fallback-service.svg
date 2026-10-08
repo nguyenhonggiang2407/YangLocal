@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Ảnh dự phòng Dịch vụ">
+<rect width="1200" height="800" fill="#E9E6DF"/>
+<rect x="355" y="300" width="490" height="300" rx="24" fill="none" stroke="#315C45" stroke-width="22"/><path d="M430 245h340v110H430zM455 430h290M455 500h210" fill="none" stroke="#315C45" stroke-width="22" stroke-linecap="round"/>
+<text x="600" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#52564F">Dịch vụ</text>
+</svg>
