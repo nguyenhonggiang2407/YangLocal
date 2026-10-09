@@ -1,0 +1,27 @@
+# Preserve official distribution bytes; custom YangLocal files keep existing Git behavior.
+/index.php -text
+/license.txt -text
+/readme.html -text
+/wp-activate.php -text
+/wp-admin/** -text
+/wp-blog-header.php -text
+/wp-comments-post.php -text
+/wp-config-sample.php -text
+/wp-content/index.php -text
+/wp-content/plugins/akismet/** -text
+/wp-content/plugins/hello.php -text
+/wp-content/plugins/index.php -text
+/wp-content/themes/index.php -text
+/wp-content/themes/twentytwentyfive/** -text
+/wp-content/themes/twentytwentyfour/** -text
+/wp-content/themes/twentytwentythree/** -text
+/wp-cron.php -text
+/wp-includes/** -text
+/wp-links-opml.php -text
+/wp-load.php -text
+/wp-login.php -text
+/wp-mail.php -text
+/wp-settings.php -text
+/wp-signup.php -text
+/wp-trackback.php -text
+/xmlrpc.php -text

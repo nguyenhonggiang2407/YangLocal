@@ -3,13 +3,11 @@
 .env.*
 !.env.example
 wp-config.php
-wp-admin/
-wp-includes/
 wp-content/uploads/
 wp-content/cache/
 wp-content/upgrade/
 node_modules/
-vendor/
+/vendor/
 *.sql
 *.sql.gz
 *.db
@@ -22,3 +20,8 @@ logs/
 HANDOFF.md
 .DS_Store
 Thumbs.db
+
+# Runtime files created by a fresh WordPress install.
+/.htaccess
+wp-content/debug.log
+wp-content/upgrade-temp-backup/

@@ -4,7 +4,7 @@ Website khám phá địa điểm dành cho sinh viên tại Hà Nội, xây d�
 
 **Website đang hoạt động:** [nguyenhonggiangcute.helioho.st](https://nguyenhonggiangcute.helioho.st/)
 
-Repo này là bản xuất mã nguồn custom đang chạy, đã tách cấu hình và dữ liệu riêng. Website thật có nội dung và ảnh riêng; bản cài mới chỉ kèm **3 địa điểm hư cấu**, có nhãn rõ ràng, để thử giao diện và chức năng. Không có tài khoản hay mật khẩu mặc định trong repo.
+Repo gồm WordPress core **7.1.3** từ gói chính thức, cùng theme và plugin YangLocal đã rà soát. Phiên bản core, header Akismet và Hello Dolly khớp ba mẫu phần mềm đọc từ host; đây không phải đối chiếu mọi tệp của website thật. Cấu hình và dữ liệu riêng đã được tách khỏi mã nguồn. Website thật có nội dung và ảnh riêng; bản cài mới chỉ kèm **3 địa điểm hư cấu**, có nhãn rõ ràng, để thử giao diện và chức năng. Không có tài khoản hay mật khẩu mặc định trong repo.
 
 ## Chức năng trong mã nguồn
 
@@ -21,6 +21,9 @@ Các chức năng yêu cầu dữ liệu thật như bản đồ địa điểm,
 ## Cấu trúc
 
 ```text
+wp-admin/                  # WordPress core chính thức
+wp-includes/               # WordPress core chính thức
+wp-config-sample.php        # Mẫu chuẩn, không chứa thông tin thật
 wp-content/
   plugins/yanglocal-core/
     yanglocal-core.php       # Đăng ký plugin và trang mặc định
@@ -38,8 +41,8 @@ wp-content/
 
 ## Cài đặt trên môi trường riêng
 
-1. Cài một bản WordPress mới cùng database riêng. Header của theme/plugin khai báo **WordPress từ 7.1, PHP từ 7.4**; đây là yêu cầu khai báo của source, không phải kết quả kiểm thử mọi phiên bản.
-2. Sao chép hai thư mục custom vào `wp-content/plugins/` và `wp-content/themes/` của bản WordPress đó. Không cần npm hay bước build.
+1. Tải ZIP từ GitHub hoặc clone repo; giải nén toàn bộ nội dung vào document root của một website thử nghiệm riêng. Core đi kèm khai báo **PHP từ 7.4, MySQL từ 5.5.5**; đây là mức tối thiểu trong source, không phải kết quả thử mọi phiên bản hay khuyến nghị dùng phần mềm cũ.
+2. Tạo database và tài khoản database riêng, mở URL thử nghiệm để chạy trình cài WordPress. Tự đặt tài khoản quản trị; repo không có mật khẩu mặc định. WordPress tạo `wp-config.php` tại máy của bạn, tệp đó bị Git bỏ qua. Không cần tải thêm core, npm hay bước build.
 3. Đăng nhập bằng tài khoản quản trị bạn tạo trong quá trình cài WordPress. Kích hoạt **YangLocal Core** trước, rồi theme **YangLocal**.
 4. Plugin tạo các trang chức năng và thiết lập trang chủ/trang bài viết/trang riêng tư. Kiểm tra **Cài đặt → Đọc** và lưu lại **Cài đặt → Đường dẫn tĩnh**.
 5. Nếu muốn có nội dung để thử, vào **Công cụ → YangLocal Setup → Nhập dữ liệu hư cấu**. Đồng bộ chỉ áp dụng cho các slug demo; bản xuất công khai đã vô hiệu chức năng dọn nội dung cũ.
@@ -55,7 +58,9 @@ Google Places và công cụ tải ảnh là tùy chọn, cần key được c�
 
 ## Bản công khai khác website thật ở đâu
 
-- Không gồm WordPress core, `wp-config.php`, database, tài khoản, đánh giá, tin nhắn, uploads hoặc file sao lưu.
+- Có WordPress core và phụ thuộc mặc định từ gói chính thức, giữ nguyên byte và giấy phép. Không gồm `wp-config.php`, `.htaccess` thật, database, tài khoản, đánh giá, tin nhắn, uploads hoặc file sao lưu.
+- Core chuẩn đặt ở root repo; website HelioHost hiện giữ core ở `/wp` và dùng front controller ở domain root. Muốn bố trí giống host, xem [hướng dẫn HelioHost](deployment/helio-domain-root/README.md). Không chép đè bản này lên website có dữ liệu.
+- Gói core chính thức có theme/plugin mặc định và ảnh minh họa theo giấy phép đi kèm; các thư mục bản xuất cũ, overwrite, docs cũ và ZIP trên host không được sao chép. Gói ngôn ngữ trên host cũng không được lấy; có thể chọn tiếng Việt trong Cài đặt WordPress.
 - Bộ dữ liệu địa điểm thật không được xuất bản lại; bộ demo có 3 địa điểm hư cấu, không số điện thoại, tọa độ thật hay đánh giá giả.
 - Ảnh bitmap chưa có hồ sơ quyền đầy đủ được bỏ khỏi repo. Header/footer dùng SVG mark có sẵn, trang đăng nhập dùng SVG dự phòng.
 - Công cụ dọn nội dung seed cũ bị vô hiệu trong bản công khai; thao tác nhập demo không xóa hoặc đưa bài cũ về bản nháp.
@@ -65,7 +70,7 @@ Website đang chạy không bị thay đổi bởi quá trình xuất bản repo
 
 ## Kiểm tra và giới hạn
 
-Bản xuất được kiểm tra cú pháp PHP/JavaScript, JSON, tham chiếu ảnh bắt buộc và nội dung nhạy cảm trước khi công khai. Website thật đã được xem trực tiếp. Chưa chạy kiểm thử tích hợp đầy đủ trên một database WordPress mới; không coi việc kiểm tra cú pháp là chứng minh mọi luồng backend đều đã được thử.
+Theme/plugin custom đã được kiểm tra cú pháp PHP/JavaScript, JSON, tham chiếu ảnh bắt buộc và nội dung nhạy cảm. Core được kiểm tra checksum gói chính thức, CRC ZIP và hash từng tệp sau khi ghép vào repo; không tự sửa mã core. Xem [nguồn core](WORDPRESS_SOURCE.json). Website thật đã được xem trực tiếp. Chưa chạy kiểm thử tích hợp đầy đủ trên một database WordPress mới; không coi việc kiểm tra cú pháp là chứng minh mọi luồng backend đều đã được thử.
 
 Giá, giờ mở cửa, nguồn ảnh và vị trí có thể thay đổi. Dữ liệu hư cấu chỉ dùng trình diễn. Website không cam kết thời gian hoạt động hoặc host miễn phí vĩnh viễn.
 
