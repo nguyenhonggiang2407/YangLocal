@@ -813,7 +813,7 @@ html.yl-photo-modal-open,html.yl-photo-modal-open body{overflow:hidden}
 .yl-photo-grid__photo-link{display:block;width:100%;height:100%;}
 .yl-photo-attribution a{color:inherit;text-decoration:underline;text-underline-offset:2px;}
 
-/* v7.17 brand integration — user-provided NHG identity without replacing the YangLocal product name. */
+/* Brand mark and YangLocal navigation */
 .yl-brand__creator-logo{display:block;width:158px;height:auto;max-height:55px;object-fit:contain;flex:0 0 auto;filter:drop-shadow(0 4px 10px rgba(30,70,160,.14))}
 .yl-brand__wordmark{font-weight:850;letter-spacing:-.02em}
 .yl-brand__custom-logo{display:block;max-height:50px;width:auto}

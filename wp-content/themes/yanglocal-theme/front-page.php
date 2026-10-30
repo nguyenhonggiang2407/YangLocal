@@ -50,7 +50,7 @@ $yl_render_editorial_media = static function( $post_id, $class = '' ) {
         </div>
         <div class="yl-hero-collage" aria-label="Một vài lát cắt Hà Nội" data-yl-hero-build="7.24.1-r16p4">
             <?php
-            // Public export uses the bundled illustrations, not omitted venue photos.
+            // Use bundled illustrations for the demo venue cards.
             $yl_hero_base_uri = trailingslashit( get_template_directory_uri() ) . 'assets/images/';
             $yl_hero_images = array(
                 array(
